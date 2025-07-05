@@ -89,7 +89,7 @@ export const Services = () => (
           >
             <Card variant="glass" className="p-8 h-full flex flex-col group hover:shadow-glow">
               <div className="flex items-center justify-center mb-6">
-                <service.icon className="w-10 h-10 text-primary-500 dark:text-primary-400 group-hover:scale-110 transition-transform" />
+                <service.icon className="w-10 h-10 text-primary-500 dark:text-primary-400 group-hover:text-primary-600 dark:group-hover:text-primary-300 group-hover:scale-110 transition-transform" />
               </div>
               <h3 className="text-xl font-bold text-neutral-900 dark:text-white mb-2">
                 {service.title}
