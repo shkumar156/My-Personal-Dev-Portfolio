@@ -88,7 +88,7 @@ export const personalInfo = {
   email: 'muhammadumar8741@gmail.com',
   phone: '+92 3407652100',
   location: '🇵🇰 Pakistan',
-  avatar: '/src/Images/PFP.jpg',
+  avatar: '/PFP.jpg',
   resumeUrl: '/resume.pdf',
   social: {
     github: 'https://github.com/shkumar156',
