@@ -83,7 +83,7 @@ export const skillCategories = [
 
 export const personalInfo = {
   name: 'Muhammad Umar',
-  title: 'Software Developer',
+  title: 'Software Developer | ML Engineer',
   tagline: 'Hi, I\'m Umar — a Developer building scalable web & AI solutions',
   email: 'muhammadumar8741@gmail.com',
   phone: '+92 3407652100',
