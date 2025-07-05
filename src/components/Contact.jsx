@@ -145,9 +145,9 @@ export const Contact = () => {
                   <motion.div
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ duration: 0.2 }}
-                    className={`flex items-center justify-center w-14 h-14 bg-gradient-to-br ${item.color} rounded-2xl shadow-lg`}
+                    className={`flex items-center justify-center w-14 h-14 bg-gradient-to-br ${item.color} rounded-2xl shadow-lg flex-shrink-0`}
                   >
-                    <item.icon className="w-6 h-6 text-white" />
+                    <item.icon className="w-7 h-7 text-white mx-auto my-auto" />
                   </motion.div>
                   <div className="pl-4">
                     <p className="text-sm font-medium text-neutral-500 dark:text-neutral-400 mb-1">
@@ -156,7 +156,7 @@ export const Contact = () => {
                     {item.href !== '#' ? (
                       <motion.a
                         href={item.href}
-                        className="text-lg font-semibold text-neutral-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                        className="text-lg font-semibold text-neutral-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors break-all block w-full"
                         whileHover={{ x: 5 }}
                       >
                         {item.value}
