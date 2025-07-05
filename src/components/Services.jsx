@@ -36,6 +36,11 @@ const services = [
     description: 'Seamless integration with third-party APIs and services.'
   },
   
+  {
+    icon: TrendingUp,
+    title: 'Model Training',
+    description: 'Custom machine learning model training and deployment for your business needs.'
+  },
 ];
 
 export const Services = () => (
