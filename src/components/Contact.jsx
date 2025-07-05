@@ -64,9 +64,18 @@ export const Contact = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: personalInfo.phone,
-      href: `tel:${personalInfo.phone}`,
+      value: [
+        { number: personalInfo.phone, href: `tel:${personalInfo.phone}` },
+        { number: '+92 3288644170', href: 'tel:+923288644170' }
+      ],
       color: 'from-green-500 to-emerald-500'
+    },
+    {
+      icon: Send,
+      label: 'WhatsApp',
+      value: personalInfo.whatsapp || '+92 3407652100',
+      href: personalInfo.whatsappLink || 'https://wa.me/923407652100',
+      color: 'from-green-400 to-lime-400'
     },
     {
       icon: MapPin,
@@ -154,13 +163,28 @@ export const Contact = () => {
                       {item.label}
                     </p>
                     {item.href !== '#' ? (
-                      <motion.a
-                        href={item.href}
-                        className="text-lg font-semibold text-neutral-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors break-all block w-full"
-                        whileHover={{ x: 5 }}
-                      >
-                        {item.value}
-                      </motion.a>
+                      Array.isArray(item.value) ? (
+                        <div className="flex flex-col gap-1">
+                          {item.value.map((phone, idx) => (
+                            <motion.a
+                              key={phone.number}
+                              href={phone.href}
+                              className="text-lg font-semibold text-neutral-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors break-all block w-full"
+                              whileHover={{ x: 5 }}
+                            >
+                              {phone.number}
+                            </motion.a>
+                          ))}
+                        </div>
+                      ) : (
+                        <motion.a
+                          href={item.href}
+                          className="text-lg font-semibold text-neutral-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors break-all block w-full"
+                          whileHover={{ x: 5 }}
+                        >
+                          {item.value}
+                        </motion.a>
+                      )
                     ) : (
                       <p className="text-lg font-semibold text-neutral-900 dark:text-white">
                         {item.value}
@@ -170,6 +194,16 @@ export const Contact = () => {
                 </div>
               </motion.div>
             ))}
+            {/* WhatsApp QR Code */}
+            <div className="flex flex-col items-center mt-6 group">
+              <span className="text-base font-medium text-neutral-700 dark:text-neutral-200 mb-2">Scan to WhatsApp</span>
+              <img
+                src="/QR CODE.jpg"
+                alt="WhatsApp QR Code"
+                className="w-48 h-48 rounded-lg shadow-md border border-neutral-200 dark:border-neutral-700 transition-transform duration-300 group-hover:scale-150"
+                style={{ imageRendering: 'pixelated' }}
+              />
+            </div>
           </div>
         </Card>
       </div>
