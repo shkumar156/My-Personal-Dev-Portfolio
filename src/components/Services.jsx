@@ -39,7 +39,7 @@ const services = [
   {
     icon: TrendingUp,
     title: 'Model Training',
-    description: 'Custom machine learning model training and deployment for your business needs.'
+    description: 'Fine-Tuning the models for better accuracy.'
   },
 ];
 
