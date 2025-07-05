@@ -17,7 +17,7 @@ const services = [
   {
     icon: Layers,
     title: 'Customizable Websites',
-    description: 'Unique, branded websites with easy customization and CMS integration.'
+    description: 'Unique, branded websites with easy customization.'
   },
   {
     icon: Rocket,

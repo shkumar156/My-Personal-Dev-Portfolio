@@ -146,8 +146,7 @@ export const Contact = () => {
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ duration: 0.2 }}
                     className={`flex items-center justify-center w-14 h-14 bg-gradient-to-br ${item.color} rounded-2xl shadow-lg flex-shrink-0`}
-                  >
-                    <item.icon className="w-7 h-7 text-white mx-auto my-auto" />
+                  >alignment                    <item.icon className="w-7 h-7 text-white mx-auto my-auto" />
                   </motion.div>
                   <div className="pl-4">
                     <p className="text-sm font-medium text-neutral-500 dark:text-neutral-400 mb-1">
