@@ -6,7 +6,7 @@ import { Card } from './ui/Card';
 const certifications = [
   {
     id: '1',
-    title: 'The Complete Beginner Web Development Bootcamp',
+    title: 'The Complete Web Development Bootcamp',
     description: 'Professional Certificate from Google Developers Group on Web Development covering MERN Stack and UI/UX best practices.',
     issuer: 'Google Developers Group',
     date: '2024',
@@ -20,6 +20,15 @@ const certifications = [
     issuer: 'Kaggle',
     date: '2025',
     url: 'https://www.kaggle.com/learn/certification/muhammadumar5345/intro-to-machine-learning',
+    featured: false
+  },
+  {
+    id: '3',
+    title: 'Google Prompting Essentials',
+    description: 'Credential for Google Prompting Essentials, demonstrating proficiency in prompt engineering and effective use of AI tools.',
+    issuer: 'Google',
+    date: '2025',
+    url: 'https://www.coursera.org/account/accomplishments/verify/SOKJJVM9VJV6',
     featured: false
   },
   
