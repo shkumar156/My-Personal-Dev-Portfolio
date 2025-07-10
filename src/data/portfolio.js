@@ -8,7 +8,7 @@ export const projects = [
       image: 'https://www.cio.com/wp-content/uploads/2025/01/272365-0-30946200-1738104780-CRM-Software.jpg?quality=50&strip=all',
       technologies: ['React.js', 'Node.js', 'Redux', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Material UI'],
       category: 'FullStack',
-      liveUrl: 'crm-main-7s81.vercel.app',
+      liveUrl: 'https://crm-main-7s81.vercel.app',
       githubUrl: 'https://github.com/shkumar156/CRM-Final-Year-Project'
     },
     {
@@ -18,7 +18,7 @@ export const projects = [
       image: 'https://yt3.googleusercontent.com/S_GzdetfVzD2E21lnQ8OEV5S6qkh9Cg6JvzKO_qg48W-bFqM01JzQ3GH9Lj07KU9RDOV2N-4bw=s900-c-k-c0x00ffffff-no-rj',
       technologies: ['React', 'Node.js', 'MongoDB', 'Express.js'],
       category: 'FullStack',
-      liveUrl: 'web-technologies-7twf.vercel.app',
+      liveUrl: 'https://web-technologies-7twf.vercel.app/signup',
       githubUrl: 'https://github.com/shkumar156/Apex-Shopping-WebApp-Semester-Project',
       
     },
@@ -83,7 +83,7 @@ export const skillCategories = [
 
 export const personalInfo = {
   name: 'Muhammad Umar',
-  title: 'Software Developer',
+  title: 'Software Developer | ML Engineer',
   tagline: 'Hi, I\'m Umar — a Developer building scalable web & AI solutions',
   email: 'muhammadumar8741@gmail.com',
   phone: '+92 3407652100',
