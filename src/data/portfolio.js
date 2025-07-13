@@ -40,6 +40,7 @@ export const projects = [
       'https://repository-images.githubusercontent.com/78960087/e08d0380-3538-11ea-8100-3c74cc52a2d8',
     technologies: ['Python', 'TensorFlow', 'Keras', 'Colab'],
     category: 'AI',
+    liveUrl: 'https://huggingface.co/spaces/shkumar156/Cats-Classifier',
     githubUrl:
       'https://github.com/shkumar156/Cat-Breed-Prediction-Using-Kaggle-Dataset'
   },
