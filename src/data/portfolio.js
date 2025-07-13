@@ -39,7 +39,8 @@ export const projects = [
     description: 'A web application for real-time object detection using YOLOv5, featuring a modern React frontend with drag-and-drop image upload and an Express.js backend that processes images through the YOLOv5 model.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/3/38/Detected-with-YOLO--Schreibtisch-mit-Objekten.jpg',
     technologies: ['React', 'JavaScript', 'Python', 'Node.js', 'YOLOv5'],
-    category: 'AI',
+    category: 'AI', 'FullStack',
+    liveUrl: 'https://image-object-detection-using-yolov8.vercel.app/',
     githubUrl: 'https://github.com/shkumar156/Image-Object-Detection-Using-Yolov5'
   },
   
