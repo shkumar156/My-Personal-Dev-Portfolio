@@ -63,7 +63,7 @@ export const projects = [
     description:
       'Developed the official website in collaboration with Dubai Health Authority for Dubai Medical Research Forum (DMRF).' ,
     image:
-      'https://www.dmrf.ae/static/media/caro2.5b067b9521a21caf1fd9.jpgYOLO--Schreibtisch-mit-Objekten.jpg',
+      'https://www.dmrf.ae/static/media/DMRFlogo.0fc2f01cc04c8cb208d1.png--Schreibtisch-mit-Objekten.jpg',
     technologies: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
     category: 'FullStack',
     liveUrl: 'https://www.dmrf.ae'
