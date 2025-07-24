@@ -56,6 +56,18 @@ export const projects = [
     liveUrl: 'https://image-object-detection-using-yolov8.vercel.app/',
     githubUrl:
       'https://github.com/shkumar156/Image-Object-Detection-Using-Yolov5'
+  },
+  {
+    id: '5',
+    title: 'Dubai Medical Research Forum (DMRF)',
+    description:
+      'Developed the official website in collaboration with Dubai Health Authority for Dubai Medical Research Forum (DMRF).' ,
+    image:
+      'https://www.dmrf.ae/static/media/caro2.5b067b9521a21caf1fd9.jpgYOLO--Schreibtisch-mit-Objekten.jpg',
+    technologies: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
+    category: 'FullStack',
+    liveUrl: 'https://www.dmrf.ae'
+    
   }
 ];
 
